@@ -1,33 +1,35 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": "active",
-    "editor.guides.highlightActiveBracketPair": true,
-    "workbench.colorTheme": "GitHub Dark Default",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.autofetch": true,
-    "css.lint.unknownAtRules": "ignore",
-    "dart.flutterSdkPath": "/Users/bakiakyol/Documents/Flutter/flutter",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-    },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.tabSize": 2,
+  "editor.showFoldingControls": "always",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "css.lint.unknownAtRules": "ignore",
+  "dart.flutterSdkPath": "/Users/bakiakyol/Documents/Flutter/flutter",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": "explicit",
-        },
-    },
-    "prettier.tabWidth": 2,
-    "prettier.requireConfig": false,
-    "eslint.nodePath": "/Users/bakiakyol/.config/js-format/node_modules",
-    "eslint.options": {
-        "overrideConfigFile": "/Users/bakiakyol/.config/js-format/eslint.config.mjs",
-    },
-    "editor.parameterHints.enabled": false,
-    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "prettier.tabWidth": 2,
+  "prettier.requireConfig": false,
+  "eslint.nodePath": "/Users/bakiakyol/.config/js-format/node_modules",
+  "eslint.options": {
+    "overrideConfigFile": "/Users/bakiakyol/.config/js-format/eslint.config.mjs"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.minimap.enabled": false
 }
