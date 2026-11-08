@@ -1,0 +1,33 @@
+# Oh My Zsh (robbyrussell) görünümü, Rosé Pine renkleri: tek satır, boşluksuz
+add_newline = false
+format = '$character$directory$git_branch$git_status$cmd_duration '
+palette = 'rose_pine'
+
+[palettes.rose_pine]
+love = '#eb6f92'
+gold = '#f6c177'
+rose = '#ebbcba'
+pine = '#31748f'
+foam = '#9ccfd8'
+iris = '#c4a7e7'
+
+[character]
+format = '$symbol  '
+success_symbol = '[➜](bold foam)'
+error_symbol = '[➜](bold love)'
+
+[directory]
+format = '[$path]($style)'
+style = 'bold iris'
+truncation_length = 1
+truncate_to_repo = true
+
+[git_branch]
+format = ' [git:\(](bold pine)[$branch](bold rose)[\)](bold pine)'
+
+[git_status]
+format = '( [✗ $all_status$ahead_behind](bold gold))'
+
+[cmd_duration]
+format = ' [$duration](gold)'
+min_time = 3000

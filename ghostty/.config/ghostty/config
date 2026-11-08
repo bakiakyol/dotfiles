@@ -1,0 +1,25 @@
+theme = Homebrew Phosphor
+background-opacity = 0.92
+background-blur = 20
+minimum-contrast = 3
+
+shell-integration-features = ssh-terminfo
+
+# Text
+font-family = JetBrains Mono
+
+adjust-cell-height = 35%
+
+# Breathing room
+window-padding-x = 16
+window-padding-y = 12
+window-padding-balance = true
+macos-titlebar-style = tabs
+
+# Left Option acts as Alt for terminal shortcuts, right Option still types special characters
+mouse-hide-while-typing = true
+scrollback-limit = 50000000
+
+window-colorspace = "display-p3"
+window-padding-balance = true
+maximize = true
